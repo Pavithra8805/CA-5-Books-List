@@ -170,3 +170,35 @@
 .form-container .regBtn {
     margin-top: 0px; 
 }
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px;
+        left: 5%;
+    }
+
+    .registration-success {
+        margin-left: 20px;
+    }
+
+    .header-container {
+        margin-left: 0 !important;
+        font-size: 20px;
+        text-align: center; 
+    }
+
+    .registration-message {
+        margin-left: 0;
+    }
+
+    .read-joy {
+        margin-left: 25px;
+    }
+
+    #home {
+        margin-left: 0;
+    }
+}
