@@ -1,25 +1,25 @@
 .form-container {
     width: 400px;
-    background-color: white;
+    background-image: url("https://img.freepik.com/free-vector/gradient-geometric-background_23-2148811443.jpg?size=626&ext=jpg&ga=GA1.1.1299116437.1704382347&semt=ais");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-weight: 100;
-    padding: 35px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 28px;
     position: relative;
-    left: 35%;
-    top: 20px;
-
+    left: 58%;
 }
 
 .form-container div {
     width: 100%;
-    height: 90px;
+    height: 80px;
     margin-bottom: 10px;
 }
 
 .form-container div>input,
 .form-container input {
     width: 100%;
-    height: 75%;
+    height: 70%;
     padding: 5px;
     padding: 5px 15px;
     font-size: larger;
@@ -28,20 +28,20 @@
 
 .form-container div>input:hover {
     transition: background-color 0.5s ease;
-    border: none;
+    border: 2px solid rgb(51, 136, 255);
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 .form-container .regBtn {
     background-color: rgb(51, 136, 255);
     border: 1px solid lightgray;
-    padding: 15px;
+    padding: 10px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .regBtn {
-    padding: 5px 15px;
     width: 330px;
+    font-size: larger;
 }
 
 .regBtn:hover {
@@ -79,3 +79,94 @@
     bottom: 4px;
 }
 
+.registration-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.header-container {
+    margin-left: 530px;
+    font-size: 25px;
+}
+
+.registration-success {
+    font-size: 24px;
+    color: rgb(51, 136, 255);
+    display: flex;
+    margin-left: 73px;
+}
+
+.read-joy {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 77px;
+}
+
+#home {
+    margin-top: 20px;
+    background-color: rgb(246, 195, 66);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 77px;
+}
+
+#home:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.form-container input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-container input[type="checkbox"]:checked {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.form-container input[type="checkbox"]:checked:after {
+    content: "\2713";
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container label.checkbox-label {
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    bottom: 9px;
+    left: 10px;
+}
+
+.checkbox-container {
+    margin-bottom: 0px;
+    text-align:start;
+}
+.form-container .checkbox-container {
+    margin-bottom: 0px; 
+}
+
+.form-container .regBtn {
+    margin-top: 0px; 
+}
