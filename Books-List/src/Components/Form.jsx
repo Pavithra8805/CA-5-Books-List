@@ -44,7 +44,7 @@ const Form = () => {
                                             required: "❗Name required",
                                             minLength: {
                                                 value: 3,
-                                                message: " ❗Name must be more than 3 characters",
+                                                message: " ❗Name must contains atleast 3 characters",
                                             },
                                             maxLength: {
                                                 value: 30,
