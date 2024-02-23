@@ -34,6 +34,7 @@ const Form = () => {
                             </button>
                         </div>
                     ) : (
+                        // Form
                         <div className='form-container'>
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <div>
@@ -106,7 +107,7 @@ const Form = () => {
                                     <label htmlFor="agreeTerms" className="checkbox-label">I agree all statements in <u>Terms of service</u></label>
                                     {errors.agreeTerms && <p className="checkbox-error">{errors.agreeTerms.message}</p>}
                                 </div>
-
+                                {/* Sign up button */}
                                 <button
                                     className='regBtn'
                                     disabled={isSubmitting || (watch("pass") !== watch("confirmPass"))}
